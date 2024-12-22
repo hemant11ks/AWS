@@ -1,0 +1,7 @@
+AWS - Amazon Web Services:
+
+There are three types of Deployement:
+1. Cloud Based
+2. On-premises (Private cloud deployment)
+3. Hybrid (Data under specific government regulations)
+
