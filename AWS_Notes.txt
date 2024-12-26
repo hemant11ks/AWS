@@ -1,7 +1,52 @@
 AWS - Amazon Web Services:
 
 There are three types of Deployement:
+
 1. Cloud Based
 2. On-premises (Private cloud deployment)
 3. Hybrid (Data under specific government regulations)
+
+AWS Services:
+
+Compute Services
+
+1. EC2 (Elastic Compute Cloud): Virtual servers in the cloud. Example: Running a web server or a database server on an EC2 instance.
+2. Lambda: Serverless compute service. Example: Processing images uploaded to S3 using a Lambda function.
+3. ECS (Elastic Container Service): Container orchestration service. Example: Running a containerized web application on ECS.
+
+Storage Services
+
+1. S3 (Simple Storage Service): Object storage service. Example: Storing and serving images, videos, or files on a website.
+2. EBS (Elastic Block Store): Block-level storage service. Example: Attaching an EBS volume to an EC2 instance for additional storage.
+3. Glacier: Long-term data archiving service. Example: Archiving infrequently accessed data, such as backups or logs.
+
+Database Services
+
+1. RDS (Relational Database Service): Managed relational database service. Example: Running a MySQL or PostgreSQL database on RDS.
+2. DynamoDB: NoSQL key-value and document database service. Example: Storing and retrieving large amounts of data, such as user profiles or game state.
+3. DocumentDB: Document-oriented database service. Example: Storing and querying large amounts of semi-structured data, such as JSON documents.
+
+Security, Identity, and Compliance Services
+
+1. IAM (Identity and Access Management): Identity and access management service. Example: Managing user access and permissions to AWS resources.
+2. Cognito: User identity and access management service. Example: Authenticating and authorizing users for a mobile or web application.
+3. Inspector: Automated security assessment service. Example: Identifying vulnerabilities and deviations from security best practices in your AWS resources.
+
+Networking Services
+
+1. VPC (Virtual Private Cloud): Virtual networking service. Example: Creating a private network for your AWS resources, with custom IP address ranges and subnets.
+2. Route 53: DNS and domain name registration service. Example: Registering a domain name and managing DNS records for your website.
+3. CloudFront: Content delivery network (CDN) service. Example: Distributing static content, such as images and videos, across different geographic locations.
+
+Analytics Services
+
+1. S3 Select: Data extraction and filtering service. Example: Extracting specific data from large datasets stored in S3.
+2. Athena: Query engine service. Example: Running SQL queries on data stored in S3 or other data sources.
+3. QuickSight: Fast, cloud-powered business intelligence service. Example: Creating interactive dashboards and visualizations from your data.
+
+Machine Learning Services
+
+1. SageMaker: Machine learning platform service. Example: Building, training, and deploying machine learning models for predictive analytics or natural language processing.
+2. Rekognition: Computer vision service. Example: Analyzing images or videos for object detection, facial recognition, or text recognition.
+3. Comprehend: Natural language processing service. Example: Sentiment analysis, entity recognition, or topic modeling for text data.
 
